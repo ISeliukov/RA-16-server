@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "npm install",
     "start": "forever start -a --uid myserver ./src/server.js",
-	"stop": "forever stop myserver",
+    "stop": "forever stop myserver",
     "list": "forever list",
     "watch": "forever -w server.js"
   },
